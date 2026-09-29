@@ -1,0 +1,15 @@
+{
+  "name": "inanna-myth-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot that posts a full Inanna/Sumerian myth (in numbered parts, 1800 chars max each) every 3 days.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dry-run": "DRY_RUN=true node index.js"
+  },
+  "dependencies": {}
+}
